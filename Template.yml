@@ -13,7 +13,7 @@ jobs:
   template_name:
     runs-on: ubuntu-latest
     steps:
-      - name: template-name
-        uses: gendloop/template-name@main
+      - name: test-action-2
+        uses: gendloop/test-action-2@main
         with:
           token: ${{ secrets.GENDLOOP_ACCESS_TOKEN }}
